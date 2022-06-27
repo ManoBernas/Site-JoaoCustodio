@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Produto;
+use App\Models\Foto;
 use Illuminate\Http\Request;
 
-class ProdutoController extends Controller
+class FotoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -25,7 +25,6 @@ class ProdutoController extends Controller
     public function create()
     {
         //
-        return view('produto.create');
     }
 
     /**
@@ -42,10 +41,10 @@ class ProdutoController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Produto  $produto
+     * @param  \App\Models\Foto  $foto
      * @return \Illuminate\Http\Response
      */
-    public function show(Produto $produto)
+    public function show(Foto $foto)
     {
         //
     }
@@ -53,10 +52,10 @@ class ProdutoController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Produto  $produto
+     * @param  \App\Models\Foto  $foto
      * @return \Illuminate\Http\Response
      */
-    public function edit(Produto $produto)
+    public function edit(Foto $foto)
     {
         //
     }
@@ -65,10 +64,10 @@ class ProdutoController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Produto  $produto
+     * @param  \App\Models\Foto  $foto
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Produto $produto)
+    public function update(Request $request, Foto $foto)
     {
         //
     }
@@ -76,10 +75,10 @@ class ProdutoController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Produto  $produto
+     * @param  \App\Models\Foto  $foto
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Produto $produto)
+    public function destroy(Foto $foto)
     {
         //
     }

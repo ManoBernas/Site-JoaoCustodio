@@ -45,21 +45,21 @@
       </a>
     </div>
     <hr class="horizontal dark mt-0">
-    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+    <div style="margin-left:07%;" class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="info">
             <a href="#" class="d-block">{{ Auth::user()->name }}</a>
         </div>
-        <div class="ml-auto">
-            <a class="btn btn-secondary" href="{{ route('logout') }}"
-                onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">
-                {{ __('Logout') }}
-            </a>
+    </div>
+    <div style="margin-left:07%;" class="ml-auto">
+        <a class="btn btn-secondary" href="{{ route('logout') }}"
+            onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">
+            {{ __('Logout') }}
+        </a>
 
-            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                @csrf
-            </form>
-        </div>
+        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+            @csrf
+        </form>
     </div>
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
       <ul class="navbar-nav">

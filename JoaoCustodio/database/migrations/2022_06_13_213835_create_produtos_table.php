@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('produtos', function (Blueprint $table) {
             $table->id();
+            $table->string('designacao');
+            $table->string('responsavel');
+            $table->date('dataInicio');
+            $table->string('github');
+            $table->text('descricao');
             $table->timestamps();
         });
     }

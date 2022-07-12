@@ -1,0 +1,69 @@
+
+@extends('layouts.outer')
+
+@section('content')
+<body>
+	<!-- Start banner Area -->
+	<section class="generic-banner relative">
+		<!-- Start Header Area -->
+		<header class="default-header">
+			<div class="container">
+				<div class="header-wrap">
+					<div class="header-top d-flex justify-content-between align-items-center">
+						<div class="logo">
+							<a href="index.html"><img src="img/logo.png" alt=""></a>
+						</div>
+						<div class="main-menubar d-flex align-items-center">
+							<nav class="hide">
+								<a href="index.html#home">Home</a>
+								<a href="index.html#contact">Contact</a>
+							</nav>
+							<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+</section>
+	<!-- About Generic Start -->
+	<div class="main-wrapper">
+
+		<!-- Start blog Area -->
+		<!-- Start blog Area -->
+		<section class="blog-area section-gap" id="blog">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-8 pb-30 header-text">
+						<h1>Projetos</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="single-blog col-lg-4 col-md-4 align-items-center">
+
+						<img class="f-img img-fluid mx-auto" src="../img/dt1.jpg" alt="">
+						<h3>
+							<a href="projetodt.html">Projeto dt125</a>
+						</h3>
+
+
+					</div>
+					<div class="single-blog col-lg-4 col-md-4">
+						<img class="f-img img-fluid mx-auto" src="../img/r2.jpg" alt="">
+						<h3>
+							<a href="#">Projeto Rally Queima-Fitas</a>
+						</h3>
+
+					</div>
+					<div class="single-blog col-lg-4 col-md-4">
+						<img class="f-img img-fluid mx-auto" src="../img/b2.jpg" alt="">
+						<h3>
+							<a href="#">Passeio de Motas</a>
+						</h3>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end blog Area -->
+		<!-- end blog Area -->
+@endsection

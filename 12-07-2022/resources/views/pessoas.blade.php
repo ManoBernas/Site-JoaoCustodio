@@ -1,0 +1,56 @@
+@extends('layouts.outer')
+
+@section('content')
+<body>
+	<!-- Start banner Area -->
+	<section class="generic-banner relative">
+		<!-- Start Header Area -->
+		<header class="default-header">
+			<div class="container">
+				<div class="header-wrap">
+					<div class="header-top d-flex justify-content-between align-items-center">
+						<div class="logo">
+							<a href="index.html"><img src="img/logo.png" alt=""></a>
+						</div>
+						<div class="main-menubar d-flex align-items-center">
+							<nav class="hide">
+								<a href="index.html#home">Home</a>
+								<a href="index.html#contact">Contact</a>
+							</nav>
+							<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</section>
+	<section class="gallery-area section-gap" id="gallery">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-8 pb-30 header-text">
+					<h1 class="text-white">Pessoas</h1>
+					<!--tipo projeto, nome projeto... -->
+					<!--www.nunoconceicao.com(Verificar)-->
+				</div>
+			</div>
+			<div class="gal">
+				<a href="../assets/img/p1.jpg"><img src="img/p1.jpg" alt=""></a>
+				<a href="img/p2.jpg"><img src="img/p2.jpg" alt=""></a>
+				<a href="img/l1.jpg"><img src="img/l1.jpg" alt=""></a>
+				<a href="img/p4.jpg"><img src="img/p4.jpg" alt=""></a>
+				<a href="img/p5.jpg"><img src="img/p5.jpg" alt=""></a>
+				<a href="img/p6.jpg"><img src="img/p6.jpg" alt=""></a>
+				<a href="img/a.jpg"><img src="img/a.jpg" alt=""></a>
+				<a href="img/aa.jpg"><img src="img/aa.jpg" alt=""></a>
+				<a href="img/g1.jpg"><img src="img/g1.jpg" alt=""></a>
+				<a href="img/g2.jpg"><img src="img/g2.jpg" alt=""></a>
+				<a href="img/g3.jpg"><img src="img/g3.jpg" alt=""></a>
+				<a href="img/g4.jpg"><img src="img/g4.jpg" alt=""></a>
+				<a href="img/d1.jpg"><img src="img/d1.jpg" alt=""></a>
+				<a href="img/p6.jpg"><img src="img/p6.jpg" alt=""></a>
+				<a href="img/b3.jpg"><img src="img/b3.jpg" alt=""></a>
+				<a href="img/va.jpg"><img src="img/va.jpg" alt=""></a>
+			</div>
+		</div>
+	</section>
+@endsection

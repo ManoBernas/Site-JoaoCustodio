@@ -37,7 +37,7 @@
 </section>
 <form role="form" method="POST" action="/produtos/{{ $produto->id }}" enctype="multipart/form-data">
 @csrf
-@method('PUT');
+@method('PUT')
     <div class="card-body">
         {{-- <div class="form-group">
             <label for="inputDesig">Designação</label>

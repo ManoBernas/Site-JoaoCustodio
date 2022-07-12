@@ -10,12 +10,13 @@ class Categoria extends Model
     use HasFactory;
 
     //criação da relação entre os modelos Categoria e Produto
-    public function produto(){
+    public function produto()
+    {
         return $this->hasMany(Produto::class);
     }
 
-    public function projeto(){
-        return $this->hasMany(Projeto::class);
+    public function projeto()
+    {
+        return $this->hasMany(Projeto::class, 'categoria_id');
     }
-
 }
